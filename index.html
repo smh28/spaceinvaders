@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+  <meta charset="utf-8">
+  <title>SPACE INVADERS!</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<div id="starfield"></div>
+
+  <div class= "mainContainer">
+    <canvas id="myCanvas" width="600" height="600"
+      style="border: 1px solid white;">
+      Sorry, but your browser does not support the HTML5 canvas tag.
+    </canvas>
+    <div class="instructions">
+      <h1>SPACE INVADERS</h1>
+      <h2>Destroy those <br/> aliens before they destroy your city!</h2>
+      <p>SHOOT WITH SPACE BAR</p>
+      <p>MOVE WITH A & D</p>
+      <p>PAUSE WITH P</p>
+      <p>Get power-ups + extra points by shooting down the enemy ships</p>
+      <br><br>
+      <br><br>
+
+      <div class="bottomContainer">
+        <div class = "authors">
+          <p>Created by:</p>
+          <p>
+            Diljá Þorkelsdóttir<br>
+            Pétur Daníel Ámundason<br>
+            Ragnar Pálsson<br>
+            Sandra Mar Huldudóttir<br>
+          </p>
+        </div>
+        <div class = "imageSource">
+          <p>Image sources:</p>
+            <a href="http://moziru.com/explore/Spaceship%20clipart%20yellow/#gal_post_3971_spaceship-clipart-yellow-19.png">Spaceship</a><br>
+            <a href="https://pixabay.com/en/ufo-alien-space-comic-object-1932941/">EnemyShip1</a><br>
+            <a href="http://clipartbarn.com/ufo-clipart_6304/">EnemyShip2</a><br>
+            <a href="http://clipart-library.com/clipart/8TA6E7K9c.htm">EnemyShip3</a><br>
+            <p>Aliens made by Ragnar</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div id="output"></div>
+
+  <script src="Starfield.js"></script>
+  <script src="globals.js"></script>
+  <script src="consts.js"></script>
+  <script src="util.js"></script>
+  <script src="keys.js"></script>
+
+  <script src="spatialManager.js"></script>
+  <script src="entityManager.js"></script>
+
+  <script src="Sprite.js"></script>
+
+  <script src="Entity.js"></script>
+  <script src="Alien.js"></script>
+  <script src="Bullet.js"></script>
+  <script src="SpaceShip.js"></script>
+  <script src="EnemyShip.js"></script>
+  <script src="defenceWall.js"></script>
+  <script src="Lives.js"></script>
+
+  <script src="update.js"></script>
+  <script src="render.js"></script>
+
+  <script src="imagesPreload.js"></script>
+  <script src="main.js"></script>
+
+  <script src="SPACEINVADERS.js"></script>
+
+  </body>
+  </html>
